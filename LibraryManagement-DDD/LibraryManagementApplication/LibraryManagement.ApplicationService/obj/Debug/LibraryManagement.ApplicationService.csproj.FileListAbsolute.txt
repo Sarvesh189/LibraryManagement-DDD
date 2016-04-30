@@ -1,0 +1,11 @@
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.csprojResolveAssemblyReference.cache
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.ApplicationService.dll
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.ApplicationService.pdb
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Base.dll
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Model.dll
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Infrastructure.dll
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Base.pdb
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Model.pdb
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Infrastructure.pdb
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.dll
+G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.pdb
