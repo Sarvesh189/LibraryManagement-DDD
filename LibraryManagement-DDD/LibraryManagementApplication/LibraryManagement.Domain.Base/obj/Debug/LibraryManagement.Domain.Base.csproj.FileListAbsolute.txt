@@ -1,5 +1,0 @@
-G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\bin\Debug\LibraryManagement.Domain.Base.dll
-G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\bin\Debug\LibraryManagement.Domain.Base.pdb
-G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.csprojResolveAssemblyReference.cache
-G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.dll
-G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.pdb
