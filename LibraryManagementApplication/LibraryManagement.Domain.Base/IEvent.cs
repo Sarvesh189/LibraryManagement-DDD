@@ -2,8 +2,10 @@
 
 namespace LibraryManagement.Domain.Base
 {
-    public interface IDomainEvent
+    public interface IEvent
     {
         Guid EventId { get;}
+
+        DateTime PublishedOn { get;}
     }
 }

@@ -1,7 +1,5 @@
-﻿using LibraryManagement.ApplicationService;
-using LibraryManagement.ApplicationService.DTO;
-using LibraryManagement.Helper;
-using LibraryManagement.Models;
+﻿using LibraryManagement.ApplicationService.BookService;
+using LibraryManagement.Models.Book;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,10 +17,10 @@ namespace LibraryManagement.Controllers
         public ActionResult Index()
         {
             var bookviewmodelCollection = new List<BookViewModel>();
-            var books = _bookService.GetBooks();
+            var books = _bookService.GetAllBooks();
             foreach (var book in books)
             {
-                bookviewmodelCollection.Add(ViewModelMapper.MapToBookViewModel(book));
+                bookviewmodelCollection.Add(BookViewModelMapping.MapToBookViewModel(book));
             }
 
             return View(bookviewmodelCollection);
@@ -48,7 +46,6 @@ namespace LibraryManagement.Controllers
             {
                 var bookdto = new BookDto();
                 bookdto.Title = bookviewmodel.Title;
-                bookdto.Paperback = bookviewmodel.Paperback;
                 bookdto.ISBN = bookviewmodel.ISBN;
                 bookdto.Language = bookviewmodel.Language;
                 bookdto.Price = bookviewmodel.Price;
@@ -90,7 +87,7 @@ namespace LibraryManagement.Controllers
         {
             var bookdto = _bookService.GetBookById(id);
 
-            return View(ViewModelMapper.MapToBookViewModel(bookdto));
+            return View(BookViewModelMapping.MapToBookViewModel(bookdto));
         }
 
         // POST: Book/Delete/5

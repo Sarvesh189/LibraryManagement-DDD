@@ -3,3 +3,8 @@ G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.B
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.csprojResolveAssemblyReference.cache
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.dll
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\bin\Debug\LibraryManagement.Domain.Base.dll
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\bin\Debug\LibraryManagement.Domain.Base.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.dll
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.csprojResolveAssemblyReference.cache

@@ -7,3 +7,12 @@ G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastr
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Model.pdb
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.dll
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Infrastructure.dll
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Infrastructure.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Base.dll
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Model.dll
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Base.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Model.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.dll
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.csprojResolveAssemblyReference.cache

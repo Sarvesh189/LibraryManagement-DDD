@@ -42,13 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\AddressDto.cs" />
-    <Compile Include="DTO\BookDto.cs" />
-    <Compile Include="DTO\MemberDto.cs" />
-    <Compile Include="IBookService.cs" />
+    <Compile Include="BookService\AuthorDto.cs" />
+    <Compile Include="BookService\BookDto.cs" />
+    <Compile Include="BookService\BookMappingConfiguration.cs" />
+    <Compile Include="BookService\IBookService.cs" />
+    <Compile Include="BookService\PublisherDto.cs" />
     <Compile Include="IMemberApplicationService.cs" />
-    <Compile Include="Mapping\MappingConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublisherService\BookDto.cs" />
+    <Compile Include="PublisherService\IPublisherService.cs" />
+    <Compile Include="PublisherService\PublisherDto.cs" />
+    <Compile Include="PublisherService\PublisherMapping.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibraryManagement.Domain.Base\LibraryManagement.Domain.Base.csproj">

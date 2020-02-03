@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LibraryManagement.Models.BookViewModel>
+﻿@model IEnumerable<LibraryManagement.Models.Book.BookViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -42,7 +42,7 @@
             @Html.DisplayFor(modelItem => item.ISBN)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Publisher)
+            @Html.RouteLink(item.Publisher.Name, new { action = "Details", controller = "Publisher", item.Publisher.Id });
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Language)

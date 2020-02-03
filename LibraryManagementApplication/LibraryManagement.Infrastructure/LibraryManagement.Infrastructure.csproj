@@ -42,14 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\Entity\Address.cs" />
+    <Compile Include="DAL\Entity\Book.cs" />
     <Compile Include="DAL\BookContext.cs" />
     <Compile Include="DAL\IContext.cs" />
     <Compile Include="DAL\MemberContext.cs" />
-    <Compile Include="DAL\staticData.cs" />
+    <Compile Include="DAL\BookStaticData.cs" />
+    <Compile Include="DAL\Entity\Publisher.cs" />
+    <Compile Include="DAL\PublisherContext.cs" />
+    <Compile Include="DAL\PublisherStaticData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BookRepository.cs" />
     <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\Mapping\AddressMapping.cs" />
+    <Compile Include="Repositories\Mapping\BookMapping.cs" />
+    <Compile Include="Repositories\Mapping\PublisherMapping.cs" />
     <Compile Include="Repositories\MemberRepository.cs" />
+    <Compile Include="Repositories\PublisherRepository.cs" />
     <Compile Include="Utilities\DomainEventManager.cs" />
     <Compile Include="Utilities\ILog.cs" />
   </ItemGroup>

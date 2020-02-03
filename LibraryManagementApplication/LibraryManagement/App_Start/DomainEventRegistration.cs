@@ -11,8 +11,8 @@ namespace LibraryManagement.App_Start
     {
         public static void RegisterAction()
         {
-            DomainEventManager.RegisterAction<BookCreatedEvent>(LogHandler.HandleBookCreatedEvent);
-            DomainEventManager.RegisterAction<BookDeletedEvent>(LogHandler.HandleBookDeletedEvent);
+         //   DomainEventManager.RegisterAction<BookCreatedEvent>(LogHandler.HandleBookCreatedEvent);
+         //   DomainEventManager.RegisterAction<BookDeletedEvent>(LogHandler.HandleBookDeletedEvent);
         }
     }
 }

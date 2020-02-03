@@ -1,4 +1,4 @@
-﻿using LibraryManagement.Domain.Model;
+﻿using LibraryManagement.DAL.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,25 +8,30 @@ namespace LibraryManagement.Infrastructure.DAL
 {
    public class BookContext:IContext<Book>
     {   
-
         
-        public bool Delete(Book dummyObject)
+        
+        public bool Delete(Book book)
         {
-           return StaticData.Delete(dummyObject);
+           return BookStaticData.Delete(book);
         }
 
-        public List<Book> GetDummyObjects()
+        public Book GetItemById(string Id)
         {
-            return StaticData.GetDummyObjects();   
+            throw new NotImplementedException();
         }
 
-        public bool Insert(Book dummyObject)
+        public List<Book> GetItems()
         {
-            StaticData.Insert(dummyObject);
+            return BookStaticData.GetBooks();   
+        }
+
+        public bool Insert(Book book)
+        {
+            BookStaticData.Insert(book);
             return true;
         }
 
-        public bool Update(Book dummyObject)
+        public bool Update(Book book)
         {
             throw new NotImplementedException();
         }

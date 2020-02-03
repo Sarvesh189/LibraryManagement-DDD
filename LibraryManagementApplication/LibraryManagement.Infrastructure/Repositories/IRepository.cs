@@ -11,7 +11,7 @@ namespace LibraryManagement.Infrastructure.Repositories
         T FindBy(Guid key);
         IList<T> FindAll();
         void Add(T item);
-        T this[object key] { get; set; }
+        //T this[object key] { get; set; }
         void Remove(T item);
     }
 }
