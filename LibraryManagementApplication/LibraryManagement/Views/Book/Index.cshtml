@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LibraryManagement.Models.Book.BookViewModel>
+﻿@model IEnumerable<LibraryManagement.ApplicationService.BookService.BookDto>
 
 @{
     ViewBag.Title = "Index";
@@ -24,9 +24,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Language)
         </th>
-        <th>
+        @*<th>
             @Html.DisplayNameFor(model => model.Paperback)
-        </th>
+        </th>*@
         <th>
             @Html.DisplayNameFor(model => model.Price)
         </th>
@@ -42,20 +42,20 @@
             @Html.DisplayFor(modelItem => item.ISBN)
         </td>
         <td>
-            @Html.RouteLink(item.Publisher.Name, new { action = "Details", controller = "Publisher", item.Publisher.Id });
+            @Html.RouteLink(item.Publisher.Name, new { action = "Details", controller = "Publisher", item.Publisher.Id })
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Language)
         </td>
-        <td>
+        @*<td>
             @Html.DisplayFor(modelItem => item.Paperback)
-        </td>
+        </td>*@
         <td>
             @Html.DisplayFor(modelItem => item.Price)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Edit", "Edit", new {  id=item.BookId  }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BookId }) |
             @Html.ActionLink("Remove", "Delete", new {  id=item.BookId })
         </td>
     </tr>

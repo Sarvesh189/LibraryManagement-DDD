@@ -11,6 +11,7 @@ C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\Library
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\bin\LibraryManagement.Domain.Model.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\bin\LibraryManagement.Domain.Base.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\bin\LibraryManagement.Domain.Base.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\obj\Debug\LibraryManagement.Domain.Model.csprojAssemblyReference.cache
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\obj\Debug\LibraryManagement.Domain.Model.csproj.CopyComplete
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\obj\Debug\LibraryManagement.Domain.Model.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\obj\Debug\LibraryManagement.Domain.Model.pdb
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Model\obj\Debug\LibraryManagement.Domain.Model.csprojResolveAssemblyReference.cache

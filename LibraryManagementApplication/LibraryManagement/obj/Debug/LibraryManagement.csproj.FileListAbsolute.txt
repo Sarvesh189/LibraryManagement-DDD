@@ -1,3 +1,4 @@
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\obj\Debug\LibraryManagement.csprojAssemblyReference.cache
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\roslyn\csc.exe
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -10,6 +11,9 @@ C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\Library
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\roslyn\vbc.exe
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\roslyn\VBCSCompiler.exe
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.dll.config
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.dll
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\Antlr3.Runtime.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\EntityFramework.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\EntityFramework.SqlServer.dll
@@ -44,6 +48,7 @@ C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\Library
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.ApplicationService.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.Domain.Base.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.Domain.Model.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.Domain.Model.dll.config
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.Infrastructure.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\System.Web.Helpers.xml
@@ -69,9 +74,6 @@ C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\Library
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\Microsoft.Owin.Security.Google.xml
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\obj\Debug\LibraryManagement.csproj.CopyComplete
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\obj\Debug\LibraryManagement.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\obj\Debug\LibraryManagement.pdb
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.dll.config
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.dll
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\bin\LibraryManagement.pdb
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement\obj\Debug\LibraryManagement.csprojResolveAssemblyReference.cache

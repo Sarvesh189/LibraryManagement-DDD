@@ -9,6 +9,7 @@ G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Applicat
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Infrastructure.pdb
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.dll
 G:\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.csprojAssemblyReference.cache
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.ApplicationService.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.ApplicationService.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Base.dll
@@ -16,7 +17,8 @@ C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\Library
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Infrastructure.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Base.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Model.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Domain.Model.dll.config
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\bin\Debug\LibraryManagement.Infrastructure.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.csproj.CopyComplete
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.pdb
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.ApplicationService\obj\Debug\LibraryManagement.ApplicationService.csprojResolveAssemblyReference.cache

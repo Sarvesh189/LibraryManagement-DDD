@@ -32,8 +32,11 @@ namespace LibraryManagement.Infrastructure.Repositories
 
         public void Add(Book item)
         {
-            // Entity.Book book = new 
-           // _bookContext.Insert(item);
+            Entity.Book book = BookMapping.MapToBookEntity(item);
+           
+
+           _bookContext.Insert(book);
+
             //foreach (var domainevent in item.EventList)
             //{
             //    DomainEventManager.Publish<BookCreatedEvent>(domainevent as BookCreatedEvent);
@@ -43,37 +46,40 @@ namespace LibraryManagement.Infrastructure.Repositories
         public IList<Book> FindAll()
         {
             var books = _bookContext.GetItems();
-            var publishers = _publisherContext.GetItems();
             var _books = new List<Book>();
-
-            Parallel.ForEach(books, (currentBook) => {
-               _books.Add(BookMapping.MapToBook(currentBook));
+             books.ForEach((cb) => {
+                 var publisher = _publisherContext.GetItemById(cb.PublisherId);
+                 _books.Add(
+                   Book.Create(Guid.Parse(cb.Id), cb.Title, cb.ISBN,  cb.Language, cb.Price, new Publisher(Guid.Parse(publisher.Id), publisher.Name), null)
+                );
             });
             
-            for (int index = 0; index < _books.Count; index++)
-            {
-                _books[index].Publisher = new Publisher();
-                _books[index].Publisher.Name = publishers[index].Name;
-                _books[index].Publisher.Id =   Guid.Parse(publishers[index].Id);
-            }
+
             return _books;
         }
 
         public Book FindBy(Guid key)
         {
-            //  return _bookContext.GetItems().FirstOrDefault(b => b.Id == key.ToString());
-            return null;
+            var eBook = _bookContext.GetItemById(key.ToString());
+            var epublisher = _publisherContext.GetItemById(eBook.PublisherId);
+           return Book.Create(Guid.Parse(eBook.Id), eBook.Title, eBook.ISBN, eBook.Language, eBook.Price, new Publisher(Guid.Parse(epublisher.Id), epublisher.Name), new List<Author>());
         }
 
         public void Remove(Book item)
         {
-           // _bookContext.Delete(item);
+            _bookContext.Delete(item.EntityIdentityKey.ToString());
             //foreach (var domainevent in item.EventList)
             //{
             //    DomainEventManager.Publish<BookDeletedEvent>(domainevent as BookDeletedEvent);
             //   // item.RemoveEvent(domainevent);
             //}
             //item.ClearEvent();
+        }
+
+        public void Update(Book item)
+        {
+            _bookContext.Delete(item.EntityIdentityKey.ToString());
+            _bookContext.Insert(BookMapping.MapToBookEntity(item));
         }
     }
 }

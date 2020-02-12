@@ -13,6 +13,8 @@ C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\Library
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Model.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Base.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Model.pdb
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\bin\Debug\LibraryManagement.Domain.Model.dll.config
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.csprojAssemblyReference.cache
+C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.csproj.CopyComplete
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.pdb
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Infrastructure\obj\Debug\LibraryManagement.Infrastructure.csprojResolveAssemblyReference.cache

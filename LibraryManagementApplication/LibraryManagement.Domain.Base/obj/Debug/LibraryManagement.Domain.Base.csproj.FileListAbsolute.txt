@@ -7,4 +7,3 @@ C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\Library
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\bin\Debug\LibraryManagement.Domain.Base.pdb
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.dll
 C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.pdb
-C:\Personal\Study\DDD\LibraryManagement-DDD\LibraryManagementApplication\LibraryManagement.Domain.Base\obj\Debug\LibraryManagement.Domain.Base.csprojResolveAssemblyReference.cache

@@ -13,5 +13,7 @@ namespace LibraryManagement.Infrastructure.Repositories
         void Add(T item);
         //T this[object key] { get; set; }
         void Remove(T item);
+
+        void Update(T item);
     }
 }

@@ -1,4 +1,4 @@
-﻿@model LibraryManagement.Models.BookViewModel
+﻿@model LibraryManagement.ApplicationService.BookService.BookDto
 
 @{
     Layout = null;
@@ -41,14 +41,14 @@
                 @Html.DisplayFor(model => model.ISBN)
             </dd>
     
+           
+    
             <dt>
-                @Html.DisplayNameFor(model => model.Publisher)
+                @Html.DisplayNameFor(model => model.Publisher.Name)
             </dt>
-    
             <dd>
-                @Html.DisplayFor(model => model.Publisher)
-            </dd>
-    
+                @Html.DisplayFor(model => model.Publisher.Name)
+            </dd> 
             <dt>
                 @Html.DisplayNameFor(model => model.Language)
             </dt>
@@ -57,13 +57,7 @@
                 @Html.DisplayFor(model => model.Language)
             </dd>
     
-            <dt>
-                @Html.DisplayNameFor(model => model.Paperback)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Paperback)
-            </dd>
+           
     
             <dt>
                 @Html.DisplayNameFor(model => model.Price)
