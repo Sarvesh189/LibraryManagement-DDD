@@ -177,7 +177,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Book\BookViewModelMapping.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book\BookViewModel.cs" />
     <Compile Include="Models\Book\Publisher.cs" />

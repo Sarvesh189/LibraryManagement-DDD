@@ -68,7 +68,6 @@
     <Compile Include="BaseDomainEvent.cs" />
     <Compile Include="Book\InvalidBookException.cs" />
     <Compile Include="Book\Publisher.cs" />
-    <Compile Include="Member.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Publisher\Book.cs" />
     <Compile Include="Publisher\Publisher.cs" />
