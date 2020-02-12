@@ -1,7 +1,7 @@
 ﻿@model LibraryManagement.ApplicationService.PublisherService.PublisherDto
 
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+   Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -9,64 +9,56 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Publisher</title>
+    <title>Delete</title>
 </head>
 <body>
+    <h3>Are you sure you want to delete this?</h3>
     <div>
-        <h4>Publisher Details</h4>
+        <h4>PublisherDto</h4>
         <hr />
         <dl class="dl-horizontal">
             <dt>
                 @Html.DisplayNameFor(model => model.Name)
             </dt>
-
+    
             <dd>
                 @Html.DisplayFor(model => model.Name)
             </dd>
-
+    
             <dt>
                 @Html.DisplayNameFor(model => model.WebSite)
             </dt>
-
+    
             <dd>
                 @Html.DisplayFor(model => model.WebSite)
             </dd>
-
+    
             <dt>
                 @Html.DisplayNameFor(model => model.Email)
             </dt>
-
+    
             <dd>
                 @Html.DisplayFor(model => model.Email)
             </dd>
-
+    
             <dt>
                 @Html.DisplayNameFor(model => model.OfficeAddress)
             </dt>
-
+    
             <dd>
                 @Html.DisplayFor(model => model.OfficeAddress)
             </dd>
-
+    
         </dl>
-    </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-
-    <p><b>Book List</b></p>
-
-    <table>
-        @foreach (var book in Model.Books)
-        {
-            <tr>
-                <td> @Html.RouteLink(book.Title, new { action = "Details", controller = "Book", book.Id })</td>
-               
-            </tr>
-
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
         }
-    </table>
-
+    </div>
 </body>
 </html>

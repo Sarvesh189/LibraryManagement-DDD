@@ -9,5 +9,17 @@ namespace LibraryManagement.Infrastructure.Repositories.Mapping
         {
             return new Address(address.Street, address.City, address.State, address.ZipCode, address.Country);
         }
+        public static Entity.Address MapToAddressEntity(Address address)
+        {
+            return new Entity.Address()
+            {
+                Street = address.Street,
+                City = address.City,
+                State = address.State,
+                ZipCode = address.ZipCode,
+                Country = address.Country
+            };
+        }
+
     }
 }

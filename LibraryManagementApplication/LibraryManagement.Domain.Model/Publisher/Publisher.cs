@@ -63,5 +63,12 @@ namespace LibraryManagement.Domain.Model.Publisher
             };
             return pub;
         }
+
+        public void Update(string name, string website, string email)
+        {
+            Name = name;
+            WebSite = website;
+            Email = email;
+        }
     }
 }

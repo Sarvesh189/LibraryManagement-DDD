@@ -19,7 +19,7 @@ namespace LibraryManagement.Infrastructure.Repositories
 
         public void Add(Publisher item)
         {
-            throw new NotImplementedException();
+            _publisherContext.Insert( PublisherMapping.MapToPublisherEntity(item));
         }
 
         public IList<Publisher> FindAll()
@@ -49,13 +49,17 @@ namespace LibraryManagement.Infrastructure.Repositories
         {
             var epublisher = _publisherContext.GetItemById(Convert.ToString(key));
             var publisher = PublisherMapping.MapToPublisher(epublisher);
-            publisher.Books.Add(new Book() { BookId = Guid.Parse(_bookContext.GetItems()[0].Id), title = _bookContext.GetItems()[0].Title });
+
+            epublisher.BookIds.ToList().ForEach((bkId) => {
+               var bk = _bookContext.GetItemById(bkId);
+                publisher.Books.Add(new Book() { BookId = Guid.Parse(bk.Id), title = bk.Title });
+            });
             return publisher;
         }
 
         public void Remove(Publisher item)
         {
-            throw new NotImplementedException();
+            _publisherContext.Delete(item.EntityIdentityKey.ToString());
         }
 
         public Publisher FindBy(Guid key)
@@ -65,7 +69,8 @@ namespace LibraryManagement.Infrastructure.Repositories
 
         public void Update(Publisher item)
         {
-            throw new NotImplementedException();
+            _publisherContext.Delete(item.EntityIdentityKey.ToString());
+            _publisherContext.Insert(PublisherMapping.MapToPublisherEntity(item));
         }
     }
 }

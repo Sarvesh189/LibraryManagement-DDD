@@ -41,7 +41,8 @@ namespace LibraryManagement.ApplicationService.BookService
                     var bookDto = BookMappingConfiguration.MapToBookDto(book);
                     bookDtos.Add(bookDto);
                 }
-            return bookDtos;
+             
+            return bookDtos.OrderBy(bk=>bk.Title).ToList();
         }
 
         public BookDto GetBookById(Guid bookId)

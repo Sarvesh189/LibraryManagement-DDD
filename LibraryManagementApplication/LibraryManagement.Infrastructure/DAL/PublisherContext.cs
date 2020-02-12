@@ -11,7 +11,8 @@ namespace LibraryManagement.Infrastructure.DAL
     {
         public bool Delete(string key)
         {
-            throw new NotImplementedException();
+            PublisherStaticData.Remove(key);
+            return true;
         }
 
         public List<Publisher> GetItems()
@@ -22,7 +23,8 @@ namespace LibraryManagement.Infrastructure.DAL
 
         public bool Insert(Publisher item)
         {
-            throw new NotImplementedException();
+            PublisherStaticData.Add(item);
+            return true;
         }
 
         public bool Update(Publisher item)

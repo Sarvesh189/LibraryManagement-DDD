@@ -1,5 +1,6 @@
 ﻿using LibraryManagement.ApplicationService.PublisherService;
 using LibraryManagement.Models.Publisher;
+using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
@@ -12,36 +13,31 @@ namespace LibraryManagement.Controllers
         public ActionResult Index()
         {           
           var publisherDtos =  _pbService.GetAllPublishers();
-           var publisherViewModels = new List<PublisherViewModel>();
-            foreach (var pubDto in publisherDtos)
-            {
-                publisherViewModels.Add(PublisherViewModelMapping.Map(pubDto));
-            }
-            return View(publisherViewModels);
+             return View(publisherDtos);
 
         }
 
         // GET: Publisher/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(Guid id)
         {
             var publisherDto = _pbService.GetPublisherById(id);
-           var pvm = PublisherViewModelMapping.Map(publisherDto);
-            return View(pvm);
+            return View(publisherDto);
         }
 
         // GET: Publisher/Create
         public ActionResult Create()
         {
-            return View();
+            var pubDto = new PublisherDto();
+            return View(pubDto);
         }
 
         // POST: Publisher/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(PublisherDto publisherDto)
         {
             try
             {
-                // TODO: Add insert logic here
+                _pbService.Add(publisherDto);
 
                 return RedirectToAction("Index");
             }
@@ -52,18 +48,19 @@ namespace LibraryManagement.Controllers
         }
 
         // GET: Publisher/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(Guid id)
         {
-            return View();
+            var publisherDto = _pbService.GetPublisherById(id);
+            return View(publisherDto);
         }
 
         // POST: Publisher/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(PublisherDto publisher)
         {
             try
             {
-                // TODO: Add update logic here
+                _pbService.Update(publisher);
 
                 return RedirectToAction("Index");
             }
@@ -74,18 +71,19 @@ namespace LibraryManagement.Controllers
         }
 
         // GET: Publisher/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(Guid id)
         {
-            return View();
+            var publisherDto = _pbService.GetPublisherById(id);
+            return View(publisherDto);
         }
 
         // POST: Publisher/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(PublisherDto publisher)
         {
             try
             {
-                // TODO: Add delete logic here
+                _pbService.Remove(publisher);
 
                 return RedirectToAction("Index");
             }

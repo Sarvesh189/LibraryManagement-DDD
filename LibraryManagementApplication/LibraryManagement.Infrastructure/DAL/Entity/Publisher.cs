@@ -18,6 +18,7 @@ namespace LibraryManagement.DAL.Entity
 
         public Address Office { get; set; }
 
+        public IList<string> BookIds { get; set; } 
 
     }
 

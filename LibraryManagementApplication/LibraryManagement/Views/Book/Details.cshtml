@@ -1,7 +1,7 @@
 ﻿@model LibraryManagement.ApplicationService.BookService.BookDto
 
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -13,53 +13,61 @@
 </head>
 <body>
     <div>
-        <h4>BookDto</h4>
+        <h4>Book</h4>
         <hr />
         <dl class="dl-horizontal">
             <dt>
                 @Html.DisplayNameFor(model => model.BookId)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.BookId)
             </dd>
-    
+
             <dt>
                 @Html.DisplayNameFor(model => model.Title)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.Title)
             </dd>
-    
+
             <dt>
                 @Html.DisplayNameFor(model => model.ISBN)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.ISBN)
             </dd>
-    
+
             <dt>
                 @Html.DisplayNameFor(model => model.Language)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.Language)
             </dd>
-    
+
             <dt>
                 @Html.DisplayNameFor(model => model.Price)
             </dt>
-    
+
             <dd>
                 @Html.DisplayFor(model => model.Price)
             </dd>
-    
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Publisher.Name)
+            </dt>
+
+            <dd>
+                @Html.RouteLink(Model.Publisher.Name, new { action = "Details", controller = "Publisher", Model.Publisher.Id })
+            </dd>
+
         </dl>
     </div>
     <p>
-        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Edit", "Edit", new { id = Model.BookId  }) |
         @Html.ActionLink("Back to List", "Index")
     </p>
 </body>
