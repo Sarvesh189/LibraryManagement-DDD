@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LibraryManagement.Domain.Model.Publisher;
 using LibraryManagement.Domain.Base.SharedKernel;
+using LibraryManagement.Domain.Base.RepositoryContract;
 
 namespace LibraryManagement.ApplicationService.PublisherService
 {

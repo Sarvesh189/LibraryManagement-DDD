@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LibraryManagement.Infrastructure.Repositories.Mapping;
 using System.Collections.Concurrent;
+using LibraryManagement.Domain.Base.RepositoryContract;
 
 namespace LibraryManagement.Infrastructure.Repositories
 {

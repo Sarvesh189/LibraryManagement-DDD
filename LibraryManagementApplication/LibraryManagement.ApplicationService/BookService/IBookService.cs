@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Domain.Model.Book;
+﻿using LibraryManagement.Domain.Base.RepositoryContract;
+using LibraryManagement.Domain.Model.Book;
 using LibraryManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;

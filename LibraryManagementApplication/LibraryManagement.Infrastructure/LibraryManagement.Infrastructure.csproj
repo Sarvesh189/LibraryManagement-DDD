@@ -53,11 +53,9 @@
     <Compile Include="DAL\PublisherStaticData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BookRepository.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\Mapping\AddressMapping.cs" />
     <Compile Include="Repositories\Mapping\BookMapping.cs" />
     <Compile Include="Repositories\Mapping\PublisherMapping.cs" />
-    <Compile Include="Repositories\MemberRepository.cs" />
     <Compile Include="Repositories\PublisherRepository.cs" />
     <Compile Include="Utilities\DomainEventManager.cs" />
     <Compile Include="Utilities\ILog.cs" />
